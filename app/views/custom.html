@@ -1,16 +1,15 @@
 {% extends "layout_unbranded.html" %}
 
 {% block page_title %}
-  DWP Welcome – {{ location.name }}
 {% endblock %}
 
 {% block main_content %}
 
     <h1 class="welcome-heading heading-xxlarge">Welcome</h1>
     <p>You're due to start your job on <span class="bold-small">{{ date | date }}</span>.</p>
-    
+
     <h2 class="heading-large">Your first day</h2>
-    <p>Your first day will start at <span class="">{{ location.name }}</span> at 9:30am.</p>
+    <p>Your first day will start at <span class="">{{ location.name }}</span> at 10:00am.</p>
     <p>On arrival, call <span class="">{{ location.contact }}</span></p>
     <p>You'll be given everything else you need on your first day.</p>
     <p>Dress code in your team is casual. It's acceptable to wear clean jeans, t-shirt and trainers if you want, but don't wear clothes displaying political slogans or sports team logos.</p>
