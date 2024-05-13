@@ -34,7 +34,7 @@
     "merge": "^1.2.0",
     "minimist": "0.0.8",
     "moment": "^2.13.0",
-    "napa": "^2.2.0",
+    "napa": "^3.0.0",
     "readdir": "0.0.6",
     "serve-favicon": "2.3.0"
   },
